@@ -6,15 +6,16 @@
 var sentence = ['The', 'walrus', 'danced', 'through', 'the', 'trees', 'in', 'the', 'light', 'of', 'the', 'moon'];
 
 // The addExcitement function should accept the array as the sole argument
+let newString = '';
 function addExcitement (theWordArray) {
    for (let i = 0; i < theWordArray.length; i++){
-        let newString = '';
-        newString += theWordArray[i]
-       console.log(newString)
+       newString += theWordArray[i];
+       console.log(newString);
+
 
    }
 }
 
 // Invoke the function and pass in the array
-addExcitement(sentence)
+addExcitement(sentence);
 
